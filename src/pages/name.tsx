@@ -26,7 +26,7 @@ const NamePage: FC = () => {
 			<Text fontSize={[20]}>ใส่ชื่อเลย</Text>
 			<Input
 				w={'70%'}
-				bg={'#FFFFFF60'}
+				bg={'#FFFFFF90'}
 				color={'black'}
 				placeholder='Type your name'
 				textAlign={'center'}

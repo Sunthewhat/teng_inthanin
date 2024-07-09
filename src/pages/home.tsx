@@ -15,11 +15,7 @@ const HomePage: FC = () => {
 			flexDir={'column'}
 			justifyContent={'space-between'}
 		>
-			<Text
-				textAlign={'center'}
-				mt={'9dvh'}
-				fontSize={[30]}
-			>
+			<Text textAlign={'center'} mt={'9dvh'} fontSize={[30]}>
 				เทพที่แท้ กาแฟที่โดน
 			</Text>
 			<Image src={Logo} pos={'fixed'} top={'17%'} />
@@ -29,9 +25,7 @@ const HomePage: FC = () => {
 				w={'100%'}
 				onClick={handleContinue}
 			>
-				<Text textAlign={'center'}>
-					Let's find out your
-				</Text>
+				<Text textAlign={'center'}>Let's find out your</Text>
 				<Text textAlign={'center'}>mu & menu</Text>
 			</Box>
 		</Box>

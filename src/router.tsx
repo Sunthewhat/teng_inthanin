@@ -5,6 +5,7 @@ import { NamePage } from './pages/name';
 import { ChildRootLayout } from './components/childRoot';
 import { AgePage } from './pages/age';
 import { FindingPage } from './pages/finding';
+import { QuestionPage } from './pages/question';
 
 const Router = createBrowserRouter([
 	{
@@ -36,6 +37,10 @@ const Router = createBrowserRouter([
 			{
 				path: 'finding',
 				element: <FindingPage />,
+			},
+			{
+				path: 'question',
+				element: <QuestionPage />,
 			},
 		],
 	},

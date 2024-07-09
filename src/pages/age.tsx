@@ -25,7 +25,7 @@ const AgePage: FC = () => {
 			<Text fontSize={[20]}>ใส่อายุหน่อย</Text>
 			<Input
 				w={'70%'}
-				bg={'#FFFFFF60'}
+				bg={'#FFFFFF90'}
 				color={'black'}
 				placeholder='Type your age'
 				textAlign={'center'}

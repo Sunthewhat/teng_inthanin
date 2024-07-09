@@ -6,7 +6,7 @@ const FindingPage: FC = () => {
 	const navigate = useNavigate();
 
 	setTimeout(() => {
-		navigate('/game/name');
+		navigate('/game/question');
 	}, 3000);
 	return (
 		<Box
