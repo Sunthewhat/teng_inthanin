@@ -2,27 +2,9 @@ import { Box, Image, Text } from "@chakra-ui/react";
 import { FC } from "react";
 import Logo from "../assets/inthanin.png";
 import { useNavigate } from "react-router-dom";
-import { useCookies } from "react-cookie";
 
 const HomePage: FC = () => {
   const navigate = useNavigate();
-  const [, , clearCookie] = useCookies([
-    "name",
-    "age",
-    "god",
-    "drink",
-    "godPath",
-    "drinkPath",
-  ]);
-  const clearPreviousData = () => {
-    clearCookie("name");
-    clearCookie("age");
-    clearCookie("god");
-    clearCookie("drink");
-    clearCookie("godPath");
-    clearCookie("drinkPath");
-  };
-  clearPreviousData();
   const handleContinue = () => {
     navigate("/game/name");
   };
