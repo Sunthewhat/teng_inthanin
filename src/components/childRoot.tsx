@@ -5,7 +5,7 @@ import Logo from "../assets/inthanin.png";
 
 const ChildRootLayout = () => {
   return (
-    <Box w={"100vw"} h={"100vh"} fontFamily={"Noto Sans Thai Variable"}>
+    <Box w={"100dvw"} h={"100dvh"} fontFamily={"Noto Sans Thai Variable"}>
       <Image
         src={background}
         pos={"absolute"}
