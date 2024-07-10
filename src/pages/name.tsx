@@ -41,13 +41,15 @@ const NamePage: FC = () => {
 					pos={'fixed'}
 					bottom={'3dvh'}
 					w={'25%'}
-					h={'3dvh'}
+					h={'5dvh'}
 					bgColor={'#EBEAD4'}
 					borderRadius={'50'}
 					border={'2px'}
 					borderColor={'#A06254'}
+					alignItems={'center'}
 				>
 					<Text
+						mt={'1dvh'}
 						textAlign={'center'}
 						fontWeight={'400'}
 						color={'#A06254'}

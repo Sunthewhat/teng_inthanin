@@ -34,7 +34,7 @@ const QuestionPage: FC = () => {
 				pos={'absolute'}
 				bottom={'3dvh'}
 				w={'25%'}
-				h={'3dvh'}
+				h={'5dvh'}
 				bgColor={'#EBEAD4'}
 				borderRadius={'50'}
 				border={'2px'}
@@ -42,7 +42,12 @@ const QuestionPage: FC = () => {
 				textAlign={'center'}
 				onClick={handleNextQuestion}
 			>
-				<Text color={'white'} fontWeight={'600'} textColor={'#A06254'}>
+				<Text
+					color={'white'}
+					fontWeight={'600'}
+					textColor={'#A06254'}
+					mt={'1dvh'}
+				>
 					Next
 				</Text>
 			</Box>
