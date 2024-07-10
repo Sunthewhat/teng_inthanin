@@ -12,7 +12,7 @@ const FindingPage: FC = () => {
 		<Box
 			h={'100vh'}
 			textAlign={'center'}
-			color={'#EBEAD4'}
+			color={'#333333'}
 			display={'flex'}
 			flexDir={'column'}
 			justifyContent={'center'}

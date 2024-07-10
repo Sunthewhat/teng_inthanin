@@ -13,26 +13,26 @@ import ThaiTea from '../assets/drinks/ThaiTea.png';
 
 const godsDescription = {
 	LAKSAMI:
-		'LAKSAMI Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv ',
+		'โอม พระลักษมี อิตถีเทวะ เมตตัญจะ มหาลาโภ ทุติยัมปิ พระลักษมี อิตถีเทวะ เมตตัญจะ มหาลาโภ ตะติยัมปิ พระลักษมี อิตถีเทวะ เมตตัญจะ มหาลาโภ',
 	GANESHA:
-		'GANESHA Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv ',
-	GARUDA: 'GARUDA Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv ',
-	NAKA: 'NAKA Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv ',
+		'โอม พระพิฆเณศวร สิทธิประสิทธิเม มหาลาโภ ทุติยัมปิ พระพิฆเณศวร สิทธิประสิทธิเม มหาลาโภ ตะติยัมปิ พระพิฆเณศวร สิทธิประสิทธิเม มหาลาโภ ',
+	GARUDA: 'โอม คะรุทา โอม คะรุทา โอม คะรุทา ครุฑโธ ครุฑธา ปฏิเสวามิ (สวด 3 จบ)',
+	NAKA: 'ตั้งนะโม 3 จบ กายะวาจาจิตตัง อะหังวันทา นาคาธิบดี ศรีสุทโธ วิสุทธิเทวา ปูเชมิ ( 3 ครั้ง )',
 	TRIMURTI:
-		'TRIMURTI Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv ',
+		'โอม ตัสสัต โอม ตัสสัต โอม ตัสสัต โอม สิทธิคเณศะ โอม พรหมา วิษณุ มเหศวาระ นะมะประสิทธิ ชัยยะ ลาภะ ฤทธิ สุวัตติ สวาหะ',
 	VESSAVANA:
-		'VESSAVANA Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv',
+		'อิติ ปิ โส ภะคะวา ยมมะราชาโน ท้าวเวสสุวัณโณ มรณังสุขัง อะระหังสุคะโต นะโมพุทธายะฯ ท้าวเวสสุวรรณโณ จตุมหาราชิกา ยักขะพันตา ภัทภูริโต เวสสะ พุสะ พุทธัง อรหัง พุทโธ ท้าวเวสสุวรรณโณ นะโม พุทธายะฯ',
 };
 
 const drinksDescription = {
-	โกโก้: 'โกโก Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv ',
+	โกโก้: 'โกโก้เป็นเครื่องดื่มที่จะทำให้อร่อยนั้นจะต้องใช้ความใส่ใจ คุณจึงเป็นคนที่มีความรอบคอบ และคุณยังเป็นคนที่มีความคิดสร้างสรรค์และชอบค้นหาสิ่งใหม่ๆอยู่เสมอ',
 	อเมริกาโน่:
-		'อเมริกาโน Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv ',
+		'อเมริกาโน่เป็นเครื่องดื่มที่มีรสชาติตรงไปตรงมา คุณมักจะเป็นคนที่เรียบง่าย เปิดกว้างและยอมรับสิ่งอื่นๆอยู่เสมอ นอกจากนั้นยังเป็นคนรักสงบ',
 	เอสเพรสโซ่:
-		'เอสเพรสโซ Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv ',
+		'เอสเพรสโซ่ที่มีรสชาติเข้ม เหมาะกับคุณที่เป็นคนมีความมุ่งมั่น แต่ก็ยังมีความยืดหยุ่น เหมือนเอสเพรสโซ่ที่ยังมีรสหวานและเปรี้ยมซ่อนอยู่',
 	ชาเขียว:
-		'ชาเขียว Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv ',
-	ชาไทย: 'ชาไทย Ipsum asouhfa avn,cxpir ufiaghjvn dghoieufjdvnv ajfdgiareughfvdn nvbearugfjvndfjv ',
+		'ชาเขียวมีความละมุนกลมกล่อม คุณเป็นคนที่ใส่ใจรายละเอียด และอ่อนโยนต่อผู้คนรอบข้างคุณเสมอ',
+	ชาไทย: 'รสชาติหวานของชาไทยช่วยเติมสีสันในวันนั้นให้คุณเป็นอย่างดี คุณเป็นคนสดใส และมีพลังงานดีๆให้คนอื่นๆที่ได้พบเจอคุณ',
 };
 
 const drinks: string[] = [
